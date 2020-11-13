@@ -19,7 +19,7 @@ class DisplayActivity : AppCompatActivity() {
         //textview
         val infoTextView = findViewById<TextView>(R.id.infoTv)
         //setText
-        infoTextView.text = "Name: "+Firstname+"\nLast Name: "+Lastname+"\n "+age+"\nBirth date: "+bornday+"\nEmail: "+email+"\nPhone Number: "+phone
+        infoTextView.text = "First Name: "+Firstname+"\nLast Name: "+Lastname+"\n"+age+"\nBirth date: "+bornday+"\nEmail: "+email+"\nPhone Number: "+phone
 
     }
 }
